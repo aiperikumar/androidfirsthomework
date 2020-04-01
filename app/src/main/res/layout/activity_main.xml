@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#394483"
+        android:text="22nd  SEPTEMBER  2016"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/textlnr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="L N R"
+        android:paddingTop="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+
+        android:textColor="#07124E"
+
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textjfk"
+        app:layout_constraintTop_toBottomOf="@+id/date"
+
+        />
+    <TextView
+        android:id="@+id/textjfk"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="J F K"
+        android:textAlignment="center"
+
+        android:textColor="#07124E"
+
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_torightOf="@+id/textlnr"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date"
+
+        />
+    <ImageView
+        android:id="@+id/samolet"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:src="@drawable/samolet"
+        app:layout_constraintLeft_toRightOf="@+id/textlnr"
+        app:layout_constraintRight_toLeftOf="@+id/textjfk"
+        app:layout_constraintTop_toBottomOf="@+id/date"/>
+
+    <TextView
+    android:id="@+id/textlondon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:paddingLeft="55dp"
+    android:paddingTop="5dp"
+    android:paddingRight="30dp"
+    android:text="LONDON"
+    android:textAlignment="center"
+
+    android:textColor="#57585A"
+
+    android:textSize="16sp"
+    app:layout_constraintTop_toBottomOf="@+id/textlnr"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintLeft_toLeftOf="parent"
+
+
+    />
+    <TextView
+        android:id="@+id/textnewyork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingRight="50dp"
+        android:text="NEW YORK"
+        android:textAlignment="center"
+
+        android:textColor="#57585A"
+
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/textjfk"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintRight_toRightOf="parent"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________________________"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/samolet"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"/>
+
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="NAME"
+
+        android:textAlignment="center"
+
+        android:textColor="#57585A"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line1" />
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________________________"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/samolet"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"/>
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="JAMIE SYKE"
+        android:textSize="30dp"
+
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+
+
+        app:layout_constraintTop_toBottomOf="@+id/name1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:textColor="#07124E"/>
+    <TextView
+        android:id="@+id/textfly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingLeft="90dp"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:text="FLIGHT"
+        android:textAlignment="center"
+
+        android:textColor="#57585A"
+
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/textname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+
+        />
+    <TextView
+        android:id="@+id/textseat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="90dp"
+        android:text="SEAT"
+        android:textAlignment="center"
+
+        android:textColor="#57585A"
+
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/textname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintRight_toRightOf="parent"
+
+
+        />
+    <TextView
+        android:id="@+id/textva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="VA301"
+        android:paddingTop="5dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+
+        android:textColor="#07124E"
+
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/text21a"
+        app:layout_constraintTop_toBottomOf="@+id/textfly"
+
+        />
+    <TextView
+        android:id="@+id/text21a"
+        android:paddingTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="21A"
+        android:textAlignment="center"
+
+        android:textColor="#07124E"
+
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/textva"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textseat"
+
+        />
+    <TextView
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________________________"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textva"
+        android:paddingTop="20dp"
+        android:paddingBottom="30dp"/>
+    <TextView
+        android:id="@+id/textdepart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingLeft="90dp"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:text="DEPARTS"
+        android:textAlignment="center"
+
+        android:textColor="#57585A"
+
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/line2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+
+        />
+    <TextView
+        android:id="@+id/textarrives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="90dp"
+        android:text="ARRIVES"
+        android:textAlignment="center"
+
+        android:textColor="#57585A"
+
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/line2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintRight_toRightOf="parent"
+
+
+        />
+    <TextView
+        android:id="@+id/texttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="15:40"
+        android:paddingTop="5dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+
+        android:textColor="#07124E"
+
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/texttime1"
+        app:layout_constraintTop_toBottomOf="@+id/textdepart"
+
+        />
+    <TextView
+        android:id="@+id/texttime1"
+        android:paddingTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="19:01"
+        android:textAlignment="center"
+
+        android:textColor="#07124E"
+
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/texttime"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textarrives"
+
+        />
+    <TextView
+        android:id="@+id/line3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---------------------------------------------------------------------------------------------"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texttime"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/images"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+       android:layout_marginBottom="10dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
